@@ -1,0 +1,5 @@
+frase = input("Ingresa una frase: ")
+vocal = input("Ingresa una vocal: ")
+mayuscula = vocal.upper()
+fraseconmayuscula = frase.replace(vocal, mayuscula)
+print("Frase con la vocal en mayúscula:", fraseconmayuscula)

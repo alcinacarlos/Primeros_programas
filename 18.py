@@ -1,0 +1,7 @@
+nombre = input("Ingresa tu nombre completo: ")
+minusculas = nombre.lower()
+mayusculas = nombre.upper()
+primeraletra = nombre.capitalize()
+print("Nombre en minúsculas:", minusculas)
+print("Nombre en mayúsculas:", mayusculas)
+print("Nombre con primera letra en mayúscula:", primeraletra)
