@@ -1,5 +1,5 @@
 nombre = input("Escribe tu nombre: ")
 def mostrar_nombre(nombre : str):
-    return print(nombre)
+    return f"Hola {nombre}"
 
-mostrar_nombre(nombre)
+print(mostrar_nombre(nombre))
